@@ -1,0 +1,8 @@
+{
+  "extends": "@tsconfig/vite-react/tsconfig.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "twind-typescript-plugin" }],
+    "allowJs": true
+  },
+  "include": ["vite.config.ts", "src"]
+}
